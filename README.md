@@ -1,3 +1,5 @@
+[libft.pdf](https://github.com/user-attachments/files/24056884/libft.pdf)
+
 # Libft – 42 Common Core Project  
 A custom implementation of essential C standard library functions.
 
@@ -17,7 +19,6 @@ A custom implementation of essential C standard library functions.
   - [6️⃣ Advanced String Manipulation](#6️⃣-advanced-string-manipulation)
   - [7️⃣ File Descriptor Output](#7️⃣-file-descriptor-output)
 - [🌿 Bonus Functions (Linked Lists)](#-bonus-functions-linked-lists)
-- [✅ Summary](#-summary)
 
 ---
 
