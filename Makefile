@@ -1,8 +1,9 @@
 NAME    := libft.a
 CC      := cc
-CFLAGS  := -Wall -Wextra -Werror -I.
+CFLAGS  := -Wall -Wextra -Werror
 AR      := ar rcs
 RM      := rm -f
+INCLUDES:= -I.
 
 SRCS := \
 	ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
@@ -24,26 +25,26 @@ BONUS_SRCS := \
 BONUS_OBJS := $(BONUS_SRCS:.c=.o)
 
 # --- Reglas principales ---
-all: $(NAME)
+all: $(NAME) 
 
-$(NAME): $(OBJS)
-	$(AR) $(NAME) $(OBJS)
+$(NAME): $(OBJS) $(INCLUDES)
+	@$(AR) $(NAME) $(OBJS)
 
-bonus: $(NAME) $(BONUS_OBJS)	
-	$(AR) $(NAME) $(BONUS_OBJS)
+bonus: $(OBJS) $(BONUS_OBJS) $(INCLUDES)
+	@$(AR) $(NAME) $(BONUS_OBJS)
 
-# --- Regenerar todo ---
-re: fclean all
+# --- Compilación objetos ---
+%.o: %.c
+	@$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
 # --- Limpieza ---
 clean:
-	$(RM) $(OBJS) $(BONUS_OBJS)
+	@$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
-	$(RM) $(NAME)
+	@$(RM) $(NAME)
 
-# --- Compilación objetos ---
-%.o: %.c libft.h
-	$(CC) $(CFLAGS) -c $< -o $@
+# --- Regenerar todo ---
+re: fclean all
 
 .PHONY: all bonus clean fclean re
