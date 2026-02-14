@@ -6,11 +6,11 @@
 /*   By: abarrio <abarrio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 14:05:33 by abarrio           #+#    #+#             */
-/*   Updated: 2025/11/18 17:38:32 by abarrio          ###   ########.fr       */
+/*   Updated: 2026/02/14 14:38:31 by abarrio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_print_hex(unsigned int n, int uppercase)
 {

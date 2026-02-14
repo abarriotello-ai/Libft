@@ -6,11 +6,11 @@
 /*   By: abarrio <abarrio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 16:20:28 by abarrio           #+#    #+#             */
-/*   Updated: 2025/11/19 02:38:22 by abarrio          ###   ########.fr       */
+/*   Updated: 2026/02/14 14:38:48 by abarrio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_putnbr_base_count(unsigned long n, char *base)
 {

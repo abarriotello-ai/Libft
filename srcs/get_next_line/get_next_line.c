@@ -6,11 +6,11 @@
 /*   By: abarrio <abarrio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 12:02:04 by abarrio           #+#    #+#             */
-/*   Updated: 2025/12/21 14:22:18 by abarrio          ###   ########.fr       */
+/*   Updated: 2026/02/14 14:39:00 by abarrio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 static char	*ft_read_to_stash(int fd, char *stash)
 {

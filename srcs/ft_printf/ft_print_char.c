@@ -6,11 +6,11 @@
 /*   By: abarrio <abarrio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 13:34:28 by abarrio           #+#    #+#             */
-/*   Updated: 2025/11/18 17:38:18 by abarrio          ###   ########.fr       */
+/*   Updated: 2026/02/14 14:38:28 by abarrio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_print_char(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: abarrio <abarrio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 11:56:10 by abarrio           #+#    #+#             */
-/*   Updated: 2025/12/11 14:00:10 by abarrio          ###   ########.fr       */
+/*   Updated: 2026/02/14 14:38:57 by abarrio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 size_t	ft_strlen(char *s)
 {
